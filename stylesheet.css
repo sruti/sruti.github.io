@@ -18,3 +18,7 @@ body {
  a:visited {
      color: rgb(52, 170, 131);
  }
+
+ footer {
+     color: gray
+ }
