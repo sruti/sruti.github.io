@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #eef3f9;
+    color: #333;
+
+    /* Flexbox for sticky footer */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navigation */
+header nav {
+    background: #b3cde4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-container h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.nav-container ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container ul {
+    margin-left: auto;
+    /* Push the list to the right */
+}
+
+.nav-container ul li {
+    margin: 0;
+}
+
+.nav-container ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.theme-toggle button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Main content area */
+main {
+    flex: 1;
+    /* Makes main content fill remaining space */
+}
+
+/* Intro Section */
+.intro-section {
+    padding: 50px 0;
+    background: #eef3f9;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Left Column */
+.left-column {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact-links a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.contact-links a img:hover {
+    transform: scale(1.1);
+}
+
+/* Right Column */
+.right-column {
+    flex: 2;
+    margin-left: 100px;
+}
+
+.right-column h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.right-column p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #1d3f58;
+}
+
+/* Custom Links */
+a {
+    color: #537692;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #b3cde4;
+    color: #eef3f9;
+    margin-top: auto;
+}
